@@ -67,7 +67,6 @@ const Index = () => {
                         whileInView="visible"
                         viewport={{ once: true, amount: 0.1 }} // Reduced threshold for mobile
                         variants={sectionVariants}
-                        className="w-full"
                     >
                         <EstimationForm />
                     </m.div>
